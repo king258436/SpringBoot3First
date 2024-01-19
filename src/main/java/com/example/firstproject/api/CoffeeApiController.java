@@ -59,7 +59,6 @@ public class CoffeeApiController {
         coffeeRepository.delete(target);
         return ResponseEntity.status(HttpStatus.OK).body(null);
     }
-
 }
 
 
