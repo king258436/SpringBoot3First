@@ -18,7 +18,7 @@ public class Comment {
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "article_id")
+    @JoinColumn(name="article_id")
     private Article article;
 
     @Column
